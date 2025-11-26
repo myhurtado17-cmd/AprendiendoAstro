@@ -10,20 +10,40 @@ npm create astro@latest -- --template basics
 
 Inside of your Astro project, you'll see the following folders and files:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+```markdown
+. 📂 dev-Books
+├── 📄 README.md
+├── 📄 astro.config.mjs
+├── 📄 package-lock.json
+├── 📄 package.json
+└── 📂 public/
+│ ├── 📄 aprendiendo-git.jpg
+│ ├── 📄 favicon.svg
+│ ├── 📄 learning-typescript.jpg
+│ ├── 📄 programador-pragmatico.jpg
+│ ├── 📄 refactoring.jpg
+└── 📂 src/
+│ └── 📂 assets/
+│ ├── 📄 astro.svg
+│ ├── 📄 background.svg
+│ └── 📂 components/
+│ ├── 📄 Welcome.astro
+│ └── 📂 content/
+│ └── 📂 books/
+│ ├── 📄 aprediendoGit.md
+│ ├── 📄 learning-typescript.md
+│ ├── 📄 programador-pragmatico.md
+│ ├── 📄 refactoring.md
+│ ├── 📄 config.ts
+│ └── 📂 layouts/
+│ ├── 📄 Layout.astro
+│ └── 📂 pages/
+│ ├── 📄 about.astro
+│ ├── 📄 index.astro
+│ └── 📂 styles/
+│ ├── 📄 global.css
+├── 📄 tailwind.config.js
+└── 📄 tsconfig.json
 ```
 
 To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).

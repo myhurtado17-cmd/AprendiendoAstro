@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Estilos globales con Tailwind v4 */
+@layer base {
+    html {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background: #13151a;
+        color: white;
+    }
+
+    body {
+        @apply grid place-content-center p-20;
+    }
+
+    body>div {
+        @apply container;
+    }
+}
+
+/* Clases personalizadas si las necesitas */
+@layer components {
+    .page {
+        @apply grid place-content-center p-20;
+    }
+
+    .page-container {
+        @apply container;
+    }
+}
