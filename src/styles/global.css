@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* Estilos globales con Tailwind v4 */
 @layer base {
